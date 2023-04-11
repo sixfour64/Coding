@@ -173,7 +173,7 @@ file-scoped namespacing, applies to everything that follows in the file:
 A using directive can be nested within a namespace itself to limit the scope of the directive.
 
 
-put these in the .csproj files:
+manually add these in every .csproj files:
     <nullable>enable</nullable>
     <ImplicitUsings>enable</ImplicitUsings>
 
