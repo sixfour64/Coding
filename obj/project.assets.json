@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/runner/Coding/main.csproj",
-      "projectName": "main",
-      "projectPath": "/home/runner/Coding/main.csproj",
+      "projectUniqueName": "/home/runner/Coding/W3Schools02.csproj",
+      "projectName": "W3Schools02",
+      "projectPath": "/home/runner/Coding/W3Schools02.csproj",
       "packagesPath": "/home/runner/.nuget/packages/",
       "outputPath": "/home/runner/Coding/obj/",
       "projectStyle": "PackageReference",

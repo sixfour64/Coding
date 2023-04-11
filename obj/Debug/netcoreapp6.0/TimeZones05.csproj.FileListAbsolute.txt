@@ -1,0 +1,15 @@
+/home/runner/Coding/bin/Debug/netcoreapp6.0/TimeZones05
+/home/runner/Coding/bin/Debug/netcoreapp6.0/TimeZones05.deps.json
+/home/runner/Coding/bin/Debug/netcoreapp6.0/TimeZones05.runtimeconfig.json
+/home/runner/Coding/bin/Debug/netcoreapp6.0/TimeZones05.dll
+/home/runner/Coding/bin/Debug/netcoreapp6.0/TimeZones05.pdb
+/home/runner/Coding/obj/Debug/netcoreapp6.0/TimeZones05.csproj.AssemblyReference.cache
+/home/runner/Coding/obj/Debug/netcoreapp6.0/TimeZones05.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/Coding/obj/Debug/netcoreapp6.0/TimeZones05.AssemblyInfoInputs.cache
+/home/runner/Coding/obj/Debug/netcoreapp6.0/TimeZones05.AssemblyInfo.cs
+/home/runner/Coding/obj/Debug/netcoreapp6.0/TimeZones05.csproj.CoreCompileInputs.cache
+/home/runner/Coding/obj/Debug/netcoreapp6.0/TimeZones05.dll
+/home/runner/Coding/obj/Debug/netcoreapp6.0/refint/TimeZones05.dll
+/home/runner/Coding/obj/Debug/netcoreapp6.0/TimeZones05.pdb
+/home/runner/Coding/obj/Debug/netcoreapp6.0/TimeZones05.genruntimeconfig.cache
+/home/runner/Coding/obj/Debug/netcoreapp6.0/ref/TimeZones05.dll

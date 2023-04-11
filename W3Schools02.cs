@@ -1,9 +1,7 @@
 /* W3Schools02.cs
 
 to run in replit's shell:  
-rm -r "/home/runner/Coding/obj/"
-rm -r "/home/runner/Coding/bin/"
-dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --version && dotnet run --project "/home/runner/Coding/W3Schools02.csproj"
+rm -r "/home/runner/Coding/obj/" && rm -r "/home/runner/Coding/bin/"
 
 W3Schools02-specific alt launch string for the .replit:
 dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --version && dotnet run --project /home/runner/Coding/W3Schools02.csproj

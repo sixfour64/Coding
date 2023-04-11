@@ -1,0 +1,15 @@
+/home/runner/Coding/bin/Debug/netcoreapp6.0/Scratch
+/home/runner/Coding/bin/Debug/netcoreapp6.0/Scratch.deps.json
+/home/runner/Coding/bin/Debug/netcoreapp6.0/Scratch.runtimeconfig.json
+/home/runner/Coding/bin/Debug/netcoreapp6.0/Scratch.dll
+/home/runner/Coding/bin/Debug/netcoreapp6.0/Scratch.pdb
+/home/runner/Coding/obj/Debug/netcoreapp6.0/Scratch.csproj.AssemblyReference.cache
+/home/runner/Coding/obj/Debug/netcoreapp6.0/Scratch.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/Coding/obj/Debug/netcoreapp6.0/Scratch.AssemblyInfoInputs.cache
+/home/runner/Coding/obj/Debug/netcoreapp6.0/Scratch.AssemblyInfo.cs
+/home/runner/Coding/obj/Debug/netcoreapp6.0/Scratch.csproj.CoreCompileInputs.cache
+/home/runner/Coding/obj/Debug/netcoreapp6.0/Scratch.dll
+/home/runner/Coding/obj/Debug/netcoreapp6.0/refint/Scratch.dll
+/home/runner/Coding/obj/Debug/netcoreapp6.0/Scratch.pdb
+/home/runner/Coding/obj/Debug/netcoreapp6.0/Scratch.genruntimeconfig.cache
+/home/runner/Coding/obj/Debug/netcoreapp6.0/ref/Scratch.dll

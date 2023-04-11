@@ -1,0 +1,15 @@
+/home/runner/Coding/bin/Debug/netcoreapp6.0/W3Schools02
+/home/runner/Coding/bin/Debug/netcoreapp6.0/W3Schools02.deps.json
+/home/runner/Coding/bin/Debug/netcoreapp6.0/W3Schools02.runtimeconfig.json
+/home/runner/Coding/bin/Debug/netcoreapp6.0/W3Schools02.dll
+/home/runner/Coding/bin/Debug/netcoreapp6.0/W3Schools02.pdb
+/home/runner/Coding/obj/Debug/netcoreapp6.0/W3Schools02.csproj.AssemblyReference.cache
+/home/runner/Coding/obj/Debug/netcoreapp6.0/W3Schools02.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/Coding/obj/Debug/netcoreapp6.0/W3Schools02.AssemblyInfoInputs.cache
+/home/runner/Coding/obj/Debug/netcoreapp6.0/W3Schools02.AssemblyInfo.cs
+/home/runner/Coding/obj/Debug/netcoreapp6.0/W3Schools02.csproj.CoreCompileInputs.cache
+/home/runner/Coding/obj/Debug/netcoreapp6.0/W3Schools02.dll
+/home/runner/Coding/obj/Debug/netcoreapp6.0/refint/W3Schools02.dll
+/home/runner/Coding/obj/Debug/netcoreapp6.0/W3Schools02.pdb
+/home/runner/Coding/obj/Debug/netcoreapp6.0/W3Schools02.genruntimeconfig.cache
+/home/runner/Coding/obj/Debug/netcoreapp6.0/ref/W3Schools02.dll

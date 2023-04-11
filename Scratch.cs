@@ -1,3 +1,11 @@
+/*
+
+dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --version && dotnet run --project /home/runner/Coding/Scratch.csproj
+
+dotnet run --project /home/runner/Coding/Scratch.csproj
+
+*/
+
 using System.Collections;
 
 namespace Coding;
@@ -25,7 +33,7 @@ Console.WriteLine(message);
 
 /*
 
-dotnet run --project /home/runner/Coding/Scratch.csproj
+
 
 
 */
