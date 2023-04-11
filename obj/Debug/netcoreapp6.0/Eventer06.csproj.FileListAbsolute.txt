@@ -1,0 +1,15 @@
+/home/runner/Coding/bin/Debug/netcoreapp6.0/Eventer06
+/home/runner/Coding/bin/Debug/netcoreapp6.0/Eventer06.deps.json
+/home/runner/Coding/bin/Debug/netcoreapp6.0/Eventer06.runtimeconfig.json
+/home/runner/Coding/bin/Debug/netcoreapp6.0/Eventer06.dll
+/home/runner/Coding/bin/Debug/netcoreapp6.0/Eventer06.pdb
+/home/runner/Coding/obj/Debug/netcoreapp6.0/Eventer06.csproj.AssemblyReference.cache
+/home/runner/Coding/obj/Debug/netcoreapp6.0/Eventer06.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/Coding/obj/Debug/netcoreapp6.0/Eventer06.AssemblyInfoInputs.cache
+/home/runner/Coding/obj/Debug/netcoreapp6.0/Eventer06.AssemblyInfo.cs
+/home/runner/Coding/obj/Debug/netcoreapp6.0/Eventer06.csproj.CoreCompileInputs.cache
+/home/runner/Coding/obj/Debug/netcoreapp6.0/Eventer06.dll
+/home/runner/Coding/obj/Debug/netcoreapp6.0/refint/Eventer06.dll
+/home/runner/Coding/obj/Debug/netcoreapp6.0/Eventer06.pdb
+/home/runner/Coding/obj/Debug/netcoreapp6.0/Eventer06.genruntimeconfig.cache
+/home/runner/Coding/obj/Debug/netcoreapp6.0/ref/Eventer06.dll

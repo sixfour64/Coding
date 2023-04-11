@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/home/runner/Coding/main.csproj": {}
+    "/home/runner/Coding/Eventer06.csproj": {}
   },
   "projects": {
-    "/home/runner/Coding/main.csproj": {
+    "/home/runner/Coding/Eventer06.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/runner/Coding/main.csproj",
-        "projectName": "main",
-        "projectPath": "/home/runner/Coding/main.csproj",
+        "projectUniqueName": "/home/runner/Coding/Eventer06.csproj",
+        "projectName": "Eventer06",
+        "projectPath": "/home/runner/Coding/Eventer06.csproj",
         "packagesPath": "/home/runner/.nuget/packages/",
         "outputPath": "/home/runner/Coding/obj/",
         "projectStyle": "PackageReference",

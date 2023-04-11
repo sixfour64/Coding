@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e/O6sHj+MgQ1DLVbBp0tEJZ1bZCTpGDOEA2JBlQQiXVtL8ho8ncHNakaERc9oq8MOJFfxfeH1CG+DGq/ZsrtUA==",
+  "dgSpecHash": "zvWoJk6L7x9557HRT3L1bIuZZE4SRogLTlTe4KkN4pp+RsU+DW5562+JdV8awxnZBXeMvPa3wXHIsho48GFSVQ==",
   "success": true,
-  "projectFilePath": "/home/runner/Coding/Coding01.csproj",
+  "projectFilePath": "/home/runner/Coding/main.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

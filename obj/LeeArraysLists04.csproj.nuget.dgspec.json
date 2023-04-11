@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/home/runner/Coding/main.csproj": {}
+    "/home/runner/Coding/LeeArraysLists04.csproj": {}
   },
   "projects": {
-    "/home/runner/Coding/main.csproj": {
+    "/home/runner/Coding/LeeArraysLists04.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/runner/Coding/main.csproj",
-        "projectName": "main",
-        "projectPath": "/home/runner/Coding/main.csproj",
+        "projectUniqueName": "/home/runner/Coding/LeeArraysLists04.csproj",
+        "projectName": "LeeArraysLists04",
+        "projectPath": "/home/runner/Coding/LeeArraysLists04.csproj",
         "packagesPath": "/home/runner/.nuget/packages/",
         "outputPath": "/home/runner/Coding/obj/",
         "projectStyle": "PackageReference",
