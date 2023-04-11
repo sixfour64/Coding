@@ -8,11 +8,14 @@ launch string in the .replit:
 dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --version && dotnet run --project /home/runner/Coding/Coding01.csproj
 */
 
+using Humanizer;
+
 namespace Coding;
 
 class Coding01 {
   public static void Main (string[] args) {
-    Console.WriteLine ("\n.\nHello World 1 - Coding01.cs"); 
+    Console.WriteLine ("\n.\nHello World 1 - Coding01.cs");
+    Console.WriteLine ($"{3501.ToWords()}");  // inflector method from Humanizer package
 
 DateTime dat1 = DateTime.Now;
 string dat2 = DateTime.Now.ToString ("dd-MM-yyyy  hh:mm:ss");
@@ -299,6 +302,10 @@ Videos:
 https://www.youtube.com/playlist?list=PLdo4fOcmZ0oXv32dOd36UydQYLejKR61R
 end of lesson 3 
 
-
+Coding01 has had:
+  https://github.com/Humanizr/Humanizer 
+added to it as a package, 
+see also: 
+  https://www.nuget.org/packages/Humanizer#readme-body-tab
 
 */
