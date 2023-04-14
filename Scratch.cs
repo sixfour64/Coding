@@ -7,6 +7,7 @@ dotnet run --project /home/runner/Coding/Scratch.csproj
 */
 
 using System.Collections;
+using Humanizer;
 
 namespace Coding;
 
@@ -27,9 +28,18 @@ string message = dayOfWeek switch
 };
 Console.WriteLine(message);
 
-      }
-  }
-
+var person = new Person();
+Console.WriteLine($"Name: {person.name}, Age: {person.age}");
+// Output:  Name: unknown, Age: 0
+      
+ }    // end method Main 
+}  // end class
+    
+public class Person
+{
+    public int age;
+    public string name = "unknown";
+}
 
 /*
 

@@ -305,6 +305,10 @@ end of lesson 3
 Coding01 has had:
   https://github.com/Humanizr/Humanizer 
 added to it as a package, 
+dotnet add package --help
+dotnet add [<PROJECT>] package <PACKAGE_NAME> [options]
+dotnet add [<PROJECT>] package Humanizer --version 2.14.1
+dotnet add Scratch.csproj package Humanizer --version 2.14.1
 see also: 
   https://www.nuget.org/packages/Humanizer#readme-body-tab
 

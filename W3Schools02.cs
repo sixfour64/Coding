@@ -127,6 +127,10 @@ Constructors are an active block of code that is defined with an access modifier
 Constructors can call other constructors.  You can call the other constructors by use the : this() method suffix.  
 e.g.  public Student(byte age) : this()
 
+
+The this reference refers to the instance itself.
+
+
 names of class should use PascalCase, names of parameters, local variables, and private fields should be in camel case (e.g., myVariable), and all other identifiers should be in Pascal case (e.g., MyMethod).
 
 you can pass an array of args as inputs to the Main() method when you start the .cs app from the command line/shell
@@ -171,6 +175,12 @@ file-scoped namespacing, applies to everything that follows in the file:
     class Class2 {}         // inside MyNamespace
 
 A using directive can be nested within a namespace itself to limit the scope of the directive.
+
+
+Interfaces define behaviors that a class or a struct MUST implement. An interface can contain methods, properties, events and indexers. They can also contain static methods with an implementation.
+Interfaces have no scope.  Are Public by default.
+You can't create an instance of an Interface.
+see 54min mark of Fritz's ep08 @ https://youtu.be/Vj3GJTUaIaQ
 
 
 manually add these in every .csproj files:
