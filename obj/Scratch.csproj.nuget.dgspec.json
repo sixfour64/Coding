@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Administrator\\Desktop\\Coding\\Scratch.csproj": {}
+    "C:\\Users\\Administrator\\Desktop\\Coding\\Scratch.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Administrator\\Desktop\\Coding\\Scratch.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\Coding\\Scratch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Administrator\\Desktop\\Coding\\Scratch.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Coding\\Scratch.csproj",
         "projectName": "Scratch",
-        "projectPath": "c:\\Users\\Administrator\\Desktop\\Coding\\Scratch.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\Coding\\Scratch.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Administrator\\Desktop\\Coding\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\Coding\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"

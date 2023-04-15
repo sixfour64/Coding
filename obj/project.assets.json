@@ -1357,9 +1357,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Coding\\TimeZones05.csproj",
-      "projectName": "TimeZones05",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\Coding\\TimeZones05.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Coding\\Scratch.csproj",
+      "projectName": "Scratch",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\Coding\\Scratch.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Administrator\\Desktop\\Coding\\obj\\",
       "projectStyle": "PackageReference",

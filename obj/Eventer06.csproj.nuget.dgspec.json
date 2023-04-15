@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Administrator\\Desktop\\Coding\\Eventer06.csproj": {}
+    "C:\\Users\\Administrator\\Desktop\\Coding\\Eventer06.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Administrator\\Desktop\\Coding\\Eventer06.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\Coding\\Eventer06.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Administrator\\Desktop\\Coding\\Eventer06.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Coding\\Eventer06.csproj",
         "projectName": "Eventer06",
-        "projectPath": "c:\\Users\\Administrator\\Desktop\\Coding\\Eventer06.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\Coding\\Eventer06.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Administrator\\Desktop\\Coding\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\Coding\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "netcoreapp6.0",
+          "dependencies": {
+            "Humanizer": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
