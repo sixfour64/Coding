@@ -56,7 +56,7 @@ var fs = default(FileStream);
 try
 {
     // Opens a text tile.
-    fs = new FileStream(@"./read.md", FileMode.Open);
+    fs = new FileStream(@"./readm.md", FileMode.Open);
     var sr = new StreamReader(fs);
 
     // A value is read from the file and output to the console.
