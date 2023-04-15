@@ -5,7 +5,7 @@ rm -r "/home/runner/Coding/obj/" && rm -r "/home/runner/Coding/bin/"
 dotnet run --project "/home/runner/Coding/Coding01.csproj"
 
 launch string in the .replit:
-dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --version && dotnet run --project /home/runner/Coding/LeeArraysLists04.csproj
+dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --version && dotnet sdk check && dotnet run --project /home/runner/Coding/LeeArraysLists04.csproj
 
 
 */

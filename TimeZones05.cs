@@ -5,7 +5,7 @@ using System.Globalization;
 
 /* 
 launch string in the .replit:
-dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --version && dotnet run --project /home/runner/Coding/TimeZones05.csproj
+dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --version && dotnet sdk check && dotnet run --project /home/runner/Coding/TimeZones05.csproj
 */
 
 namespace Coding;

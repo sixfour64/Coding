@@ -1,12 +1,4 @@
-// Coding01.cs
 
-/* 
-rm -r "/home/runner/Coding/obj/" && rm -r "/home/runner/Coding/bin/"
-dotnet run --project "/home/runner/Coding/Coding01.csproj"
-
-launch string in the .replit:
-dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --version && dotnet run --project /home/runner/Coding/Coding01.csproj
-*/
 
 using Humanizer;
 

@@ -2,7 +2,7 @@
 
 /* 
 launch string in the .replit:
-dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --version && dotnet run --project /home/runner/Coding/Eventer06.csproj
+dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --version && dotnet sdk check && dotnet run --project /home/runner/Coding/Eventer06.csproj
 */
 
 namespace Coding;
