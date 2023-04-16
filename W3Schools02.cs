@@ -135,11 +135,12 @@ The this reference refers to the instance itself.
 
 names of class should use PascalCase, names of parameters, local variables, and private fields should be in camel case (e.g., myVariable), and all other identifiers should be in Pascal case (e.g., MyMethod).
 
-you can pass an array of args as inputs to the Main() method when you start the .cs app from the command line/shell
 
-string is an array of chars, it is NOT a value type
+you can pass an array of args as inputs to the Main() method when you start the .cs app from the command line/shell - see:  https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/program-structure/main-command-line
+
 
 You can define a custom value type via struct:  public struct Point { public int X; public int Y; }
+
 
 Delegates
 Just like you can pass in objects to a method via a ref instead of passing their values in by value type, you can also pass in a reference to a method as a ref to it i.e. its object ref:  this is what a delegate is
@@ -172,22 +173,30 @@ Namespaces can be heirarchically nested
     e.g.  namespace Outer.Middle.Inner
 
 file-scoped namespacing, applies to everything that follows in the file:
-  namespace MyNamespace; 
+   namespace MyNamespace; 
     class Class1 {}         // inside MyNamespace
     class Class2 {}         // inside MyNamespace
 
 A using directive can be nested within a namespace itself to limit the scope of the directive.
 
 
+Class inheritance
+When a class declares a base class, it inherits all the members of the base class except the constructors. 
+
+A class can directly implement one or more interfaces
+
 Interfaces define behaviors that a class or a struct MUST implement. An interface can contain methods, properties, events and indexers. They can also contain static methods with an implementation.
-Interfaces have no scope.  Are Public by default.
-You can't create an instance of an Interface.
+>Interfaces have no scope.  Are Public by default.
+>see:  https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/interfaces
+>You can't create an instance of an Interface.
 see 54min mark of Fritz's ep08 @ https://youtu.be/Vj3GJTUaIaQ
 
 
 manually add these in every .csproj files:
-    <nullable>enable</nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-
+<nullable>enable</nullable>
+<ImplicitUsings>enable</ImplicitUsings>
+<CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+<LangVersion>latest</LangVersion>
 
 */
