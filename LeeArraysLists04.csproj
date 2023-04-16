@@ -6,6 +6,9 @@
 		<StartupObject>Coding.LeeArraysLists04</StartupObject>
     <nullable>enable</nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+	  <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+<LangVersion>latest</LangVersion>
   </PropertyGroup>
 
     <ItemGroup>
