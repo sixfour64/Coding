@@ -18,11 +18,17 @@ class TimeZones05
   {
   public static void Main (string[] args) 
   {
-    Console.WriteLine ("\n.\nHello World 5 - TimeZones05.cs"); 
+    Console.WriteLine ("\n.\nHello World 5 - TimeZones05.cs\n."); 
 
 
 DateTime dat1 = DateTime.Now;
 string dat2 = DateTime.Now.ToString ("dd-MM-yyyy  hh:mm:ss");
+
+// Retrieve a CultureInfo object.
+CultureInfo invC = CultureInfo.InvariantCulture;
+// Convert the date to a string 
+Console.WriteLine(dat1.ToString("r", invC));
+    
 Console.WriteLine($".{Environment.NewLine}Current Time Zone: {TimeZoneInfo.Local.DisplayName}");
 Console.WriteLine($"DateTime.Now {{dat1}} is: {dat1}.  \nstring {{dat2}} = DateTime.Now.ToString (\"dd-MM-yyyy  hh:mm:ss\") is: {dat2}");
 
@@ -78,6 +84,9 @@ Console.WriteLine("The two CultureInfo objects are equal: {0}", culture1 == cult
 Console.WriteLine(".");
 
 
+
+
+    
 // Define times to be converted.
       DateTime[] times = { new DateTime(2010, 1, 1, 0, 1, 0), 
                            new DateTime(2010, 1, 1, 0, 1, 0, DateTimeKind.Utc), 
