@@ -3,6 +3,9 @@
 /* 
 launch string in the .replit:
 dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --version && dotnet sdk check && dotnet run --project /home/runner/Coding/Coding01.csproj
+
+dotnet run --project /home/runner/Coding/Coding01.csproj
+
 */
 
 using Humanizer;
@@ -266,7 +269,13 @@ Type obj1 = typeof(object); // ==> object
 Type obj2 = obj.GetType();  // ==> string!
 Console.WriteLine($"{Environment.NewLine}{obj}\t obj1 is {obj1}");
 Console.WriteLine($"\t\t\t obj2 is {obj2}");
-Console.WriteLine($"typeof(object) refers to the compile-time container{Environment.NewLine}obj.GetType() refers to the run-time contents of that container{Environment.NewLine}.{Environment.NewLine}-end of Coding01.cs-{Environment.NewLine}");
+Console.WriteLine($"typeof(object) refers to the compile-time container{Environment.NewLine}obj.GetType() refers to the run-time contents of that container{Environment.NewLine}.");
+  
+Console.WriteLine("how to force columnar blank spaces on a line");
+Console.WriteLine("{0,-31}{1,-47}{2,-25}", "PROPERTY", "INTERNATIONAL", "TRADITIONAL");
+Console.WriteLine("{0,-31}{1,-47}{2,-25}", "col 1", "col 2", "col 3");
+    
+ Console.WriteLine($".{Environment.NewLine}-end of Coding01.cs-{Environment.NewLine}");
 
 /*  outputs:
 object obj	 obj1 is System.Object

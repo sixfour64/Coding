@@ -6,6 +6,9 @@ using System.Globalization;
 /* 
 launch string in the .replit:
 dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --version && dotnet sdk check && dotnet run --project /home/runner/Coding/TimeZones05.csproj
+
+dotnet run --project /home/runner/Coding/TimeZones05.csproj
+
 */
 
 namespace Coding;
@@ -111,5 +114,8 @@ Console.WriteLine($"LA time: {TimeLA}   for Asia/Magadan");
 
 currentDate = DateTime.Parse("2019-11-16T17:25:00Z").ToUniversalTime()
       localDateTime = univDateTime.ToLocalTime();
+
+
+perhaps besides Humanizer for datetimes, consider using Skeet's NodaTime library @ https://nodatime.org/3.1.x/userguide/index
       
 */

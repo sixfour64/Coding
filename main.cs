@@ -1,5 +1,7 @@
 /*
 
+dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --version && dotnet sdk check
+
 dotnet run --project /home/runner/Coding/main.csproj
 
 */

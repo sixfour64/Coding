@@ -6,6 +6,8 @@ rm -r "/home/runner/Coding/obj/" && rm -r "/home/runner/Coding/bin/"
 W3Schools02-specific alt launch string for the .replit:
 dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --version && dotnet sdk check && dotnet run --project /home/runner/Coding/W3Schools02.csproj
 
+dotnet run --project /home/runner/Coding/W3Schools02.csproj
+
 */
 
 namespace Coding;
