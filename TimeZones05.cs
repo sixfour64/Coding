@@ -1,5 +1,6 @@
 using System.Collections.ObjectModel;
 using System.Globalization;
+using System.Threading;  // required for 'The two CultureInfo objects'
 
 // TimeZones05.cs
 
@@ -68,7 +69,14 @@ and from:
     the ICU Library on Linux and macOS. 
 It can be passed as a parameter to the FindSystemTimeZoneById method to instantiate a TimeZoneInfo object that represents a particular time zone.
 */
-   
+
+
+CultureInfo culture1 = CultureInfo.CurrentCulture;
+CultureInfo culture2 = Thread.CurrentThread.CurrentCulture;
+Console.WriteLine("The current culture is {0}", culture1.Name);
+Console.WriteLine("The two CultureInfo objects are equal: {0}", culture1 == culture2);
+Console.WriteLine(".");
+
 
 // Define times to be converted.
       DateTime[] times = { new DateTime(2010, 1, 1, 0, 1, 0), 
@@ -101,6 +109,8 @@ It can be passed as a parameter to the FindSystemTimeZoneById method to instanti
          Console.WriteLine("Converted {0} {1} to {2}.", timeToConvert, timeToConvert.Kind, targetTime);
         }
 
+
+    
 Console.WriteLine($"{Environment.NewLine}.{Environment.NewLine}-end of TimeZones05.cs-{Environment.NewLine}");
     
 } // end Method

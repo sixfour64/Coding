@@ -1357,9 +1357,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/runner/Coding/Coding01.csproj",
-      "projectName": "Coding01",
-      "projectPath": "/home/runner/Coding/Coding01.csproj",
+      "projectUniqueName": "/home/runner/Coding/TimeZones05.csproj",
+      "projectName": "TimeZones05",
+      "projectPath": "/home/runner/Coding/TimeZones05.csproj",
       "packagesPath": "/home/runner/.nuget/packages/",
       "outputPath": "/home/runner/Coding/obj/",
       "projectStyle": "PackageReference",
