@@ -30,10 +30,26 @@ Console.WriteLine(message);
 
 
 // Parameterless constructor for class Person:
-var person = new Person();
-Console.WriteLine($"{Environment.NewLine}Person class:  Name: {person.name}, Age: {person.age}{Environment.NewLine}");
+var pers = new Person();
+Console.WriteLine($"{Environment.NewLine}Person class:  Name: {pers.name}, Age: {pers.age}{Environment.NewLine}");
 // Output:  Name: unknown, Age: 0
-    
+
+Person p = new Person { name = "Petey" };
+Console.WriteLine ($"Person class obj instance with name= {p}");   // Petey
+Console.WriteLine ("p.GetType():  {0}", p.GetType());
+Console.WriteLine ("typeof(Person):  {0}", typeof(Person));
+
+RuntimeTypeHandle myRTHFromObject = Type.GetTypeHandle(p);
+Console.WriteLine("myRTHFromObject.Value:  {0}", myRTHFromObject.Value);
+Console.WriteLine("myRTHFromObject.GetType():  {0}", myRTHFromObject.GetType());
+
+RuntimeTypeHandle myRTHFromType = typeof(Person).TypeHandle;
+Console.Write("Get the type back from the handle:  ");
+Console.WriteLine("Type.GetTypeFromHandle(myRTHFromObject):  {0}",
+Type.GetTypeFromHandle(myRTHFromObject));
+
+Console.WriteLine($".{Environment.NewLine}");
+  
 
 // for Exceptions and writing your owqn too, see Fritz ep08  @  https://www.youtube.com/watch?v=Vj3GJTUaIaQ&list=PLdo4fOcmZ0oXv32dOd36UydQYLejKR61R&index=9
 decimal Divide(decimal arg1, decimal? arg2) {
@@ -76,6 +92,7 @@ var fs = default(FileStream);
 
 
     
+    
 } // end Main method
 }  // end Class
 
@@ -84,6 +101,8 @@ public class Person
 {
     public int age;
     public string name = "unknown";
+  public override string ToString() => name;
+  
   }
 
 /*
