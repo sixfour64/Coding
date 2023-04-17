@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/home/runner/Coding/Scratch.csproj": {}
+    "/home/runner/Coding/Main.csproj": {}
   },
   "projects": {
-    "/home/runner/Coding/Scratch.csproj": {
+    "/home/runner/Coding/Main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/runner/Coding/Scratch.csproj",
-        "projectName": "Scratch",
-        "projectPath": "/home/runner/Coding/Scratch.csproj",
+        "projectUniqueName": "/home/runner/Coding/Main.csproj",
+        "projectName": "Main",
+        "projectPath": "/home/runner/Coding/Main.csproj",
         "packagesPath": "/home/runner/.nuget/packages/",
         "outputPath": "/home/runner/Coding/obj/",
         "projectStyle": "PackageReference",
