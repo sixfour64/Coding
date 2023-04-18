@@ -9,6 +9,7 @@ dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --versio
 dotnet run --project /home/runner/Coding/W3Schools02.csproj
 
 */
+using System.Collections;
 
 namespace Coding;
   
@@ -27,11 +28,53 @@ class W3Schools02
   // public static void Main(string[] args)
   public static void Main(string[] arrayname)
     {
-          Console.WriteLine ("\n.\nHello World 2 - W3Schools02.cs"); 
 
+
+//  <-- Keep this information secure! -->
+string envstr;
+string envquery = "My system drive is %SystemDrive% and my system root is %SystemRoot%";
+envstr = Environment.ExpandEnvironmentVariables(envquery);
+Console.WriteLine("ExpandEnvironmentVariables: {0}", envstr);
+
+Console.WriteLine($"GetEnvironmentVariable: {Environment.NewLine}  My temporary directory is {0}.", Environment.GetEnvironmentVariable("TEMP"));
+
+Console.WriteLine("GetEnvironmentVariables: ");
+IDictionary environmentVariables = Environment.GetEnvironmentVariables();
+  foreach (DictionaryEntry de in environmentVariables)
+    {
+      Console.WriteLine("  {0} = {1}", de.Key, de.Value);
+    }
+
+Console.WriteLine($"{Environment.NewLine}.{Environment.NewLine}");
+Console.Write("CommandLine: {0}   ", Environment.CommandLine);
+string[] arguments = Environment.GetCommandLineArgs();
+Console.WriteLine("GetCommandLineArgs: {0}", String.Join(", ", arguments));  
+
+Console.WriteLine("CurrentDirectory: {0}", Environment.CurrentDirectory);   
+Console.WriteLine("MachineName: {0}", Environment.MachineName);
+Console.WriteLine("OSVersion: {0}", Environment.OSVersion.ToString());
+Console.WriteLine("StackTrace: '{0}'", Environment.StackTrace);
+
+Console.WriteLine($"{Environment.NewLine}.{Environment.NewLine}");
+Console.WriteLine("<<Keep the below information secure!>>");
+Console.WriteLine("SystemDirectory: {0}", Environment.SystemDirectory);
+Console.WriteLine("TickCount: {0}", Environment.TickCount);
+Console.WriteLine("UserDomainName: {0}", Environment.UserDomainName);
+Console.WriteLine("UserInteractive: {0}", Environment.UserInteractive);
+Console.WriteLine("UserName: {0}", Environment.UserName);
+Console.WriteLine("Version: {0}", Environment.Version.ToString());
+Console.WriteLine("WorkingSet: {0}", Environment.WorkingSet);
+Console.WriteLine("GetFolderPath: {0}",
+Environment.GetFolderPath(Environment.SpecialFolder.System));
+string[] drives = Environment.GetLogicalDrives();
+Console.WriteLine("GetLogicalDrives: {0}", String.Join(", ", drives));
+
+      
+Console.WriteLine ($"{Environment.NewLine}.{Environment.NewLine}Hello World 2 - W3Schools02.cs{Environment.NewLine}.");
+      
 DateTime dat1 = DateTime.Now;
 string dat2 = DateTime.Now.ToString ("dd-MM-yyyy  hh:mm:ss");
-    Console.WriteLine($".{Environment.NewLine}Current Time Zone: {TimeZoneInfo.Local.DisplayName}");
+    Console.WriteLine($"{Environment.NewLine}Current Time Zone: {TimeZoneInfo.Local.DisplayName}");
 Console.WriteLine($"DateTime.Now {{dat1}} is: {dat1}.  \nstring {{dat2}} = DateTime.Now.ToString (\"dd-MM-yyyy  hh:mm:ss\") is: {dat2}");
 
 DateTime dat3 = DateTime.Now;

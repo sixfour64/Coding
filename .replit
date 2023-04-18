@@ -21,8 +21,6 @@ requiredFiles = [".replit", "replit.nix"]
 [nix]
 channel = "stable-22_11"
 
-language = "csharp"
-
 [languages.csharp]
 pattern = "**/*.cs"
 
