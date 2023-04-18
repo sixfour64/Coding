@@ -101,8 +101,12 @@ public class Person
 {
     public int age;
     public string name = "unknown";
-  public override string ToString() => name;
   
+// Method that overrides the base class (System.Object) implementation.
+public override string ToString()
+    {
+        return name;
+    }
   }
 
 /*

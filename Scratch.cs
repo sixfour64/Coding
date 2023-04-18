@@ -15,8 +15,8 @@ namespace Coding;
   {
     static void Main(string[] args)
     {
- Console.WriteLine ("Hello World  is dotnet run --project /home/runner/Coding/Main.csproj");
-Console.WriteLine("Hello World!  Scratch me!!"); 
+ Console.WriteLine ("Hello World  is dotnet run --project /home/runner/Coding/Scratch.csproj");
+Console.WriteLine("Scratch me!!"); 
  }    // end method Main 
     
 }  // end class

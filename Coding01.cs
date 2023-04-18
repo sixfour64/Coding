@@ -270,7 +270,7 @@ Type obj2 = obj.GetType();  // ==> string!
 Console.WriteLine($"{Environment.NewLine}{obj}\t obj1 is {obj1}");
 Console.WriteLine($"\t\t\t obj2 is {obj2}");
 Console.WriteLine($"typeof(object) refers to the compile-time container{Environment.NewLine}obj.GetType() refers to the run-time contents of that container{Environment.NewLine}.");
-  
+
 Console.WriteLine("how to force columnar blank spaces on a line");
 Console.WriteLine("{0,-31}{1,-47}{2,-25}", "PROPERTY", "INTERNATIONAL", "TRADITIONAL");
 Console.WriteLine("{0,-31}{1,-47}{2,-25}", "col 1", "col 2", "col 3");
@@ -279,7 +279,7 @@ Console.WriteLine("{0,-31}{1,-47}{2,-25}", "col 1", "col 2", "col 3");
 
 /*  outputs:
 object obj	 obj1 is System.Object
-			 obj2 is System.String
+obj2 is System.String
 typeof(object) refers to the compile-time container
 obj.GetType() refers to the run-time contents of that container
 */
