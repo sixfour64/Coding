@@ -128,3 +128,13 @@ C:/Users/Administrator/Desktop/Coding/obj/Debug/netcoreapp6.0/refint/Coding01.dl
 C:/Users/Administrator/Desktop/Coding/obj/Debug/netcoreapp6.0/Coding01.pdb
 C:/Users/Administrator/Desktop/Coding/obj/Debug/netcoreapp6.0/Coding01.genruntimeconfig.cache
 C:/Users/Administrator/Desktop/Coding/obj/Debug/netcoreapp6.0/ref/Coding01.dll
+/home/runner/Coding/bin/Debug/netcoreapp6.0/Microsoft.EntityFrameworkCore.dll
+/home/runner/Coding/bin/Debug/netcoreapp6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/runner/Coding/bin/Debug/netcoreapp6.0/Microsoft.Extensions.Caching.Abstractions.dll
+/home/runner/Coding/bin/Debug/netcoreapp6.0/Microsoft.Extensions.Caching.Memory.dll
+/home/runner/Coding/bin/Debug/netcoreapp6.0/Microsoft.Extensions.DependencyInjection.dll
+/home/runner/Coding/bin/Debug/netcoreapp6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/runner/Coding/bin/Debug/netcoreapp6.0/Microsoft.Extensions.Logging.dll
+/home/runner/Coding/bin/Debug/netcoreapp6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/runner/Coding/bin/Debug/netcoreapp6.0/Microsoft.Extensions.Options.dll
+/home/runner/Coding/bin/Debug/netcoreapp6.0/Microsoft.Extensions.Primitives.dll

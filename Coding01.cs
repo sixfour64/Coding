@@ -9,6 +9,7 @@ dotnet run --project /home/runner/Coding/Coding01.csproj
 */
 
 using Humanizer;
+using Microsoft.EntityFrameworkCore;
 
 namespace Coding;
 
@@ -317,5 +318,7 @@ dotnet add [<PROJECT>] package Humanizer --version 2.14.1
 dotnet add Scratch.csproj package Humanizer --version 2.14.1
 see also: 
   https://www.nuget.org/packages/Humanizer#readme-body-tab
+
+dotnet add Coding01.csproj package Microsoft.EntityFrameworkCore
 
 */

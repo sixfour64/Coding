@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lr/ym9OS5J1Jdc4IHYtj6HQUif5VVaSxidcxBn3oeloQKWwb6dFj9jtRxEsocgms3G0xqqCDSUf3U5Un6hYVqA==",
+  "dgSpecHash": "mKzBBM6awGOIDsaVjMlG8DGt2CskZjp/+3SDGAbOgWGElldbMySf7Ro+/K30ogLykUFunqiZR3ZDHELvZk3BuQ==",
   "success": true,
-  "projectFilePath": "/home/runner/Coding/W3Schools02.csproj",
+  "projectFilePath": "/home/runner/Coding/Coding01.csproj",
   "expectedPackageFiles": [
     "/home/runner/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",
     "/home/runner/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
@@ -53,7 +53,19 @@
     "/home/runner/.nuget/packages/humanizer.core.vi/2.14.1/humanizer.core.vi.2.14.1.nupkg.sha512",
     "/home/runner/.nuget/packages/humanizer.core.zh-cn/2.14.1/humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "/home/runner/.nuget/packages/humanizer.core.zh-hans/2.14.1/humanizer.core.zh-hans.2.14.1.nupkg.sha512",
-    "/home/runner/.nuget/packages/humanizer.core.zh-hant/2.14.1/humanizer.core.zh-hant.2.14.1.nupkg.sha512"
+    "/home/runner/.nuget/packages/humanizer.core.zh-hant/2.14.1/humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.entityframeworkcore/7.0.5/microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.5/microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.5/microsoft.entityframeworkcore.analyzers.7.0.5.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
