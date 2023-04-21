@@ -9,6 +9,8 @@ launch string in the .replit:
 dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --version && dotnet sdk check && dotnet run --project /home/runner/Coding/TimeZones05.csproj
 
 dotnet run --project /home/runner/Coding/TimeZones05.csproj
+   if in GitHub CodeSpaces:
+     dotnet run --project TimeZones05.csproj
 
 */
 
@@ -126,6 +128,10 @@ Console.WriteLine($"{Environment.NewLine}.{Environment.NewLine}-end of TimeZones
 }  // end Class
 
 /*
+
+dotnet add TimeZones05.csproj package Microsoft.EntityFrameworkCore
+
+
 var TimeLocal = DateTimeOffset.Now;
 var TimeLA = TimeZoneInfo.ConvertTimeBySystemTimeZoneId(TimeLocal, "Asia/Magadan");
 Console.WriteLine($"local time: {TimeLocal}");

@@ -5,6 +5,8 @@ launch string in the .replit:
 dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --version && dotnet sdk check && dotnet run --project /home/runner/Coding/Coding01.csproj
 
 dotnet run --project /home/runner/Coding/Coding01.csproj
+   if in GitHub CodeSpaces:
+     dotnet run --project Coding01.csproj
 
 */
 
@@ -311,7 +313,7 @@ end of lesson 3
 
 Coding01 has had:
   https://github.com/Humanizr/Humanizer 
-added to it as a package, 
+add it as a package:
 dotnet add package --help
 dotnet add [<PROJECT>] package <PACKAGE_NAME> [options]
 dotnet add [<PROJECT>] package Humanizer --version 2.14.1
@@ -319,6 +321,14 @@ dotnet add Scratch.csproj package Humanizer --version 2.14.1
 see also: 
   https://www.nuget.org/packages/Humanizer#readme-body-tab
 
-dotnet add Coding01.csproj package Microsoft.EntityFrameworkCore
+
+NuGet packages:
+  dotnet add Coding01.csproj package Microsoft.EntityFrameworkCore
+-or-
+  add these lines to each .csproj file manually:
+    <ItemGroup>
+    <PackageReference Include="Humanizer" Version="2.14.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+   </ItemGroup>
 
 */

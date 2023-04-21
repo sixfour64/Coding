@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/runner/Coding/Main.csproj": {}
+    "/workspaces/Coding/Main.csproj": {}
   },
   "projects": {
-    "/home/runner/Coding/Main.csproj": {
+    "/workspaces/Coding/Main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/runner/Coding/Main.csproj",
+        "projectUniqueName": "/workspaces/Coding/Main.csproj",
         "projectName": "Main",
-        "projectPath": "/home/runner/Coding/Main.csproj",
-        "packagesPath": "/home/runner/.nuget/packages/",
-        "outputPath": "/home/runner/Coding/obj/",
+        "projectPath": "/workspaces/Coding/Main.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/Coding/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/runner/.nuget/NuGet/NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp6.0"
@@ -41,6 +41,10 @@
             "Humanizer": {
               "target": "Package",
               "version": "[2.14.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
             }
           },
           "imports": [
@@ -54,12 +58,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.15, 6.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.15, 6.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.15, 6.0.15]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/nix/store/4axlc21msjr9g181l2y6hxsmm4jar8i7-dotnet-sdk-6.0.403/sdk/6.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.202/sdk/7.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }

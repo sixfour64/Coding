@@ -6,6 +6,8 @@ launch string in the .replit:
 dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --version && dotnet sdk check && dotnet run --project /home/runner/Coding/Eventer06.csproj
 
 dotnet run --project /home/runner/Coding/Eventer06.csproj
+   if in GitHub CodeSpaces:
+     dotnet run --project Eventer06.csproj
 
 */
 
@@ -40,6 +42,8 @@ Console.WriteLine($"{Environment.NewLine}.{Environment.NewLine}-end of Eventer06
 }  // end Class
 
 /*
+
+dotnet add Eventer06.csproj package Microsoft.EntityFrameworkCore
 
 An event is declared like a field except that the declaration includes an event keyword and the type must be a delegate type.
       

@@ -7,6 +7,8 @@ W3Schools02-specific alt launch string for the .replit:
 dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --version && dotnet sdk check && dotnet run --project /home/runner/Coding/W3Schools02.csproj
 
 dotnet run --project /home/runner/Coding/W3Schools02.csproj
+   if in GitHub CodeSpaces:
+     dotnet run --project W3Schools02.csproj
 
 */
 using System.Collections;
@@ -165,6 +167,9 @@ Console.WriteLine($"{Environment.NewLine}.{Environment.NewLine}-end of W3Schools
 
 
 /* 
+
+dotnet add W3Schools02.csproj package Microsoft.EntityFrameworkCore
+
 you usually want your file to have the same name as its main class.
 
 you can include constructors other than Main, see NLog above, for example.  Constructors must have the same name as the class or struct

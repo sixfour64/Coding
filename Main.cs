@@ -3,6 +3,8 @@
 dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --version && dotnet sdk check
 
 dotnet run --project /home/runner/Coding/Main.csproj
+   if in GitHub CodeSpaces:
+     dotnet run --project Main.csproj
 
 */
 
@@ -110,6 +112,9 @@ public override string ToString()
   }
 
 /*
+
+dotnet add Main.csproj package Microsoft.EntityFrameworkCore
+
   https://github.com/Humanizr/Humanizer 
 added to it as a package, 
 dotnet add package --help

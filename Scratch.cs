@@ -3,6 +3,8 @@
 dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --version && dotnet sdk check && dotnet run --project /home/runner/Coding/Scratch.csproj
 
 dotnet run --project /home/runner/Coding/Scratch.csproj
+   if in GitHub CodeSpaces:
+     dotnet run --project Scratch.csproj
 
 */
 
@@ -24,5 +26,7 @@ Console.WriteLine("Scratch me!!");
 
 
 /*
+
+dotnet add Scratch.csproj package Microsoft.EntityFrameworkCore
 
 */

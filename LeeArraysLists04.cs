@@ -8,6 +8,8 @@ launch string in the .replit:
 dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --version && dotnet sdk check && dotnet run --project /home/runner/Coding/LeeArraysLists04.csproj
 
 dotnet run --project /home/runner/Coding/LeeArraysLists04.csproj
+   if in GitHub CodeSpaces:
+     dotnet run --project LeeArraysLists04.csproj
 
 */
 
@@ -149,6 +151,10 @@ static decimal Factorial (decimal x)
 
 
 /*
+
+dotnet add LeeArraysLists04.csproj package Microsoft.EntityFrameworkCore
+
+
 Commonly used collection types:
 https://learn.microsoft.com/en-us/dotnet/standard/collections/commonly-used-collection-types
 
