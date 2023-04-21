@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mml0lgpXGOitpj09GsAJhlKFteN0PLOAMaUcH0/bjndsSsc72XQ24NtyKSBqZcAoioOXxXQVr3IuCkHMYrN9rg==",
+  "dgSpecHash": "/pDNwlTQ5SRZcqjwWQWmxweLuFwZZF/6M+CXCMi64cYTEkCsvU0YxEb0iozk/D3fTv2/+IIfQi7eZxlbBj5t+w==",
   "success": true,
-  "projectFilePath": "/workspaces/Coding/W3Schools02.csproj",
+  "projectFilePath": "/workspaces/Coding/Coding01.csproj",
   "expectedPackageFiles": [
     "/home/codespace/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",
     "/home/codespace/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
@@ -66,9 +66,9 @@
     "/home/codespace/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.netcore.app.ref/6.0.15/microsoft.netcore.app.ref.6.0.15.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.15/microsoft.aspnetcore.app.ref.6.0.15.nupkg.sha512",
-    "/home/codespace/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.15/microsoft.netcore.app.host.linux-x64.6.0.15.nupkg.sha512",
-    "/home/codespace/.nuget/packages/microsoft.netcore.app.ref/6.0.15/microsoft.netcore.app.ref.6.0.15.nupkg.sha512"
+    "/home/codespace/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.15/microsoft.netcore.app.host.linux-x64.6.0.15.nupkg.sha512"
   ],
   "logs": []
 }

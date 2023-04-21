@@ -335,5 +335,12 @@ To list out what Packages each project has installed:
   dotnet list /workspaces/Coding/Eventer06.csproj package && dotnet list /workspaces/Coding/LeeArraysLists04.csproj package && dotnet list /workspaces/Coding/Main.csproj package && dotnet list /workspaces/Coding/Scratch.csproj package && dotnet list /workspaces/Coding/TimeZones05.csproj package && dotnet list /workspaces/Coding/W3Schools02.csproj package
 
 
+Manually resore one of my GitHub Codespaces projects:
+  dotnet restore Coding01.csproj --verbosity detailed
+
+View Nuget folders and env variables:
+  dotnet nuget locals all --list
+
+
 
 */

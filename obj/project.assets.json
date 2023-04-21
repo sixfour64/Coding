@@ -1822,9 +1822,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/Coding/W3Schools02.csproj",
-      "projectName": "W3Schools02",
-      "projectPath": "/workspaces/Coding/W3Schools02.csproj",
+      "projectUniqueName": "/workspaces/Coding/Coding01.csproj",
+      "projectName": "Coding01",
+      "projectPath": "/workspaces/Coding/Coding01.csproj",
       "packagesPath": "/home/codespace/.nuget/packages/",
       "outputPath": "/workspaces/Coding/obj/",
       "projectStyle": "PackageReference",
