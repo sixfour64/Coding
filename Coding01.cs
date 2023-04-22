@@ -353,6 +353,7 @@ valid dotnet commands:
   dotnet sln add  <Coding01>          add your .cs file(s) to the sln
   dotnet new xunit -o Test		create a new unit testing folder/fileset within the project at root dir
   dotnet sln add Test			add the xunit test folder to the sln
+  dotnet test				run from the Test subfolder
 
 
 
