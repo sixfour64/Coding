@@ -343,12 +343,13 @@ View Nuget folders and env variables:
   
 
 valid dotnet commands:
-  dotnet build                           compiles without building
+  dotnet build                        compiles without building;  run this from the top-level sln folder
   dotnet restore
   dotnet list <PROJECT> package
   dotnet --info
   dotnet run --project Coding01.csproj
-  dotnet new sln                       have your cursor in project's parent folder
+  dotnet new sln                      have your cursor in project's parent folder
+  dotnet sln add  <Coding01>          add your .cs file(s) to the sln
 
 
 
