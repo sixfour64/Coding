@@ -353,10 +353,16 @@ valid dotnet commands:
   dotnet sln add  <Coding01>          add your .cs file(s) to the sln
   
   unit testing in dotnet:
-  dotnet new xunit -o Test		create a new unit testing folder/fileset within the project at root dir
-  dotnet sln add Test			add the xunit test folder to the sln
-  dotnet test				run from the Test subfolder
-  dotnet add Test/Test.csproj reference Logic/Logic.csproj    	add the subfolder's .csproj to the parent folder's csproj
+  dotnet new sln -o <solution name>		
+  manuualy create a subfolder for Test		mkdir Test   under Coding01's folder
+  dotnet new xunit -o Test			create a new unit testing folder/fileset within the project at root dir
+  dotnet sln add /Coding01/Test.csproj		to add the class library project to the solution
+  dotnet sln add Test				add the xunit test folder to the sln
+  dotnet test					run from the Test subfolder
+  dotnet add Test/Test.csproj reference Coding01/Coding01.csproj    	add the subfolder's .csproj to the parent folder's csproj as a dependency
+
+
+
 
 
 
