@@ -351,9 +351,12 @@ valid dotnet commands:
   dotnet run --project Coding01.csproj
   dotnet new sln                      have your cursor in project's parent folder
   dotnet sln add  <Coding01>          add your .cs file(s) to the sln
+  
+  unit testing in dotnet:
   dotnet new xunit -o Test		create a new unit testing folder/fileset within the project at root dir
   dotnet sln add Test			add the xunit test folder to the sln
   dotnet test				run from the Test subfolder
+  dotnet add Test/Test.csproj reference Logic/Logic.csproj    	add the subfolder's .csproj to the parent folder's csproj
 
 
 
