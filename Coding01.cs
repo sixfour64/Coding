@@ -360,7 +360,7 @@ valid dotnet commands:
   dotnet sln add Test				add the xunit test folder to the sln
   dotnet test					run from the Test subfolder;  builds both projects and runs the tests
   dotnet add Test/Test.csproj reference Coding01/Coding01.csproj    	add the subfolder's .csproj to the parent folder's csproj as a dependency
-
+  dotnet watch test				run from the Test subfolder;  continuously watches for any file-save changes then re-runs the test suite automagically
 
 
 
