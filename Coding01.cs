@@ -347,6 +347,7 @@ valid dotnet commands:
   dotnet restore
   dotnet list <PROJECT> package
   dotnet --info
+  dotnet new list			lists all templates
   dotnet run --project Coding01.csproj
   dotnet new sln                      have your cursor in project's parent folder
   dotnet sln add  <Coding01>          add your .cs file(s) to the sln
