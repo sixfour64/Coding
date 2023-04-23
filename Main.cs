@@ -33,15 +33,15 @@ Console.WriteLine(message);
 
 // Parameterless constructor for class Person:
 var pers = new Person();
-Console.WriteLine($"{Environment.NewLine}Person class:  Name: {pers.name}, Age: {pers.age}{Environment.NewLine}");
+Console.WriteLine($"{Environment.NewLine}Person obj is class:  var's name: {pers.Pname}, Age: {pers.age}{Environment.NewLine}");
 // Output:  Name: unknown, Age: 0
 
-Person p = new Person { name = "Petey" };
-Console.WriteLine ($"Person class obj instance with name= {p}");   // Petey
-Console.WriteLine ("p.GetType():  {0}", p.GetType());
+Person persObj = new Person { Pname = "Petey" };
+Console.WriteLine ($"Person class obj instance with name= {persObj}");   // Petey
+Console.WriteLine ("persObj.GetType():  {0}", persObj.GetType());
 Console.WriteLine ("typeof(Person):  {0}", typeof(Person));
 
-RuntimeTypeHandle myRTHFromObject = Type.GetTypeHandle(p);
+RuntimeTypeHandle myRTHFromObject = Type.GetTypeHandle(persObj);
 Console.WriteLine("myRTHFromObject.Value:  {0}", myRTHFromObject.Value);
 Console.WriteLine("myRTHFromObject.GetType():  {0}", myRTHFromObject.GetType());
 
@@ -102,12 +102,12 @@ var fs = default(FileStream);
 public class Person
 {
     public int age;
-    public string name = "unknown";
+    public string Pname = "unknown";
   
 // Method that overrides the base class (System.Object) implementation.
 public override string ToString()
     {
-        return name;
+        return Pname;
     }
   }
 
