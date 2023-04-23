@@ -187,15 +187,6 @@ names of class should use PascalCase, names of parameters, local variables, and 
 you can pass an array of args as inputs to the Main() method when you start the .cs app from the command line/shell - see:  https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/program-structure/main-command-line
 
 
-Structs:
-You can define a custom value type via struct:  public struct Point { public int X; public int Y; }
-Structs are Values, not references.  Structs are not inheritable.
-Structs cannot be subclassed.
-Each instance from a struct does not require instantiation of an object on the heap.
-A struct instance cannot be null. The default value for a struct is an empty instance, with all fields empty (set to their default values).
-Every field in a struct must be explicitly assigned in the constructor (or field initializer).
-
-
 Delegates:
 Just like you can pass in objects to a method via a ref instead of passing their values in by value type, you can also pass in a reference to a method as a ref to it i.e. its object ref:  this is what a delegate is
 Parameters passed into the method can ALSO take modifiers to set their interactions with the method. The parameters can be passed both in and OUT as well as by value and by reference into the method. 
