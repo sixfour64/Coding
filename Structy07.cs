@@ -13,7 +13,7 @@ namespace Coding;
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Hello World!");
+      Console.WriteLine("Hello World! --Structy07.cs-- ");
 
 var webopt = new WebOptions();
 Console.WriteLine($"{webopt.Protocol} {Environment.NewLine}.");
@@ -30,7 +30,7 @@ Console.WriteLine($"{webopt.Protocol} {Environment.NewLine}.");
                            set => protocol = value;    }
 }
 
-
+ Console.WriteLine(" --Structy07.cs-- ");
 
 
 /*
