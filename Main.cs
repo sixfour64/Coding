@@ -33,7 +33,11 @@ Console.WriteLine(message);
 
 // Parameterless constructor for class Person:
 var pers = new Person();
-Console.WriteLine($"{Environment.NewLine}Person obj is class:  var's name: {pers.Pname}, Age: {pers.age}{Environment.NewLine}");
+Console.WriteLine($"{Environment.NewLine}Person as var is class: {pers.Pname} \tAge: {pers.age}");
+RuntimeTypeHandle varPers = Type.GetTypeHandle(pers); 
+Console.WriteLine("varPers.Value:  {0}", varPers.Value);
+Console.WriteLine("varPers.GetType():  {0}", varPers.GetType());
+Console.WriteLine($".{Environment.NewLine}");
 // Output:  Name: unknown, Age: 0
 
 Person persObj = new Person { Pname = "Petey" };
