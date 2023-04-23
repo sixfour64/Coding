@@ -46,4 +46,7 @@ A struct instance cannot be null. The default value for a struct is an empty ins
 Every field in a struct must be explicitly assigned in the constructor (or field initializer).
 Adding the ref modifier to a struct’s declaration ensures that it can only ever reside on the stack.
 Default accessibility for members of a class or struct is 'private'
+A struct can implement multiple interfaces
+
+
 */
