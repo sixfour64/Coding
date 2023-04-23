@@ -19,6 +19,9 @@ var webopt = new WebOptions();
 Console.WriteLine($"{webopt.Protocol} {Environment.NewLine}.");
 webopt.Protocol ="ftp";
 Console.WriteLine($"{webopt.Protocol} {Environment.NewLine}.");
+       
+Console.WriteLine(" --Structy07.cs-- ");       
+       
  }
 }
   
@@ -30,7 +33,7 @@ Console.WriteLine($"{webopt.Protocol} {Environment.NewLine}.");
                            set => protocol = value;    }
 }
 
- Console.WriteLine(" --Structy07.cs-- ");
+
 
 
 /*
