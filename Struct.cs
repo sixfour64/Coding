@@ -9,7 +9,8 @@ namespace Coding;
 
 var webopt = new WebOptions();
 Console.WriteLine($"{webopt.Protocol} {Environment.NewLine}.");
-
+webopt.Protocol ="ftp";
+Console.WriteLine($"{webopt.Protocol} {Environment.NewLine}.");
  }
 }
   
