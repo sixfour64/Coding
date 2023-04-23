@@ -3,7 +3,7 @@ Struct.csproj<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp6.0</TargetFramework>
-		<StartupObject>Coding.Structy</StartupObject>
+		<StartupObject>Coding.Structy07</StartupObject>
         <nullable>enable</nullable>
     <ImplicitUsings>enable</ImplicitUsings>
 	  <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
