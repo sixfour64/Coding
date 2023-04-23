@@ -237,6 +237,8 @@ They can also contain static methods with an implementation.
 Interfaces have no scope.  Are Public by default.
 An interface is similar to a class, but only specifies behavior and does not hold state (data). Consequently, an interface can define only functions and not fields.
 They (typically) provide no implementation for its members because its members are implicitly abstract.
+Implementing an interface means providing a public implementation for all of its members.
+Interfaces can derive from other interfaces.
 >see:  https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/interfaces
 >You can't create an instance of an Interface.
 see 54min mark of Fritz's ep08 @ https://youtu.be/Vj3GJTUaIaQ
