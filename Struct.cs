@@ -1,8 +1,7 @@
 using System;
-using System.Numerics;
 
-namespace HelloWorld
-{
+namespace Coding;
+
   class Program
   {
     static void Main(string[] args)
@@ -13,7 +12,7 @@ var webopt = new WebOptions();
 Console.WriteLine($"{webopt.Protocol} {Environment.NewLine}.");
 
  }
-  }
+}
   
   
   struct WebOptions
@@ -23,8 +22,6 @@ Console.WriteLine($"{webopt.Protocol} {Environment.NewLine}.");
                            set => protocol = value;    }
 }
 
-  
-}
 
 
 
