@@ -1,7 +1,15 @@
+/* Structy07.cs
+
+dotnet run --project /home/runner/Coding/Struct07.csproj
+   if in GitHub CodeSpaces:
+     dotnet run --project Structy07.csproj
+
+*/
+
 using System;
 namespace Coding;
 
-  class Program
+  class Structy
   {
     static void Main(string[] args)
     {
