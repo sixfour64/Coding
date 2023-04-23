@@ -32,22 +32,26 @@ Console.WriteLine(message);
 
 
 // Parameterless constructor for class Person:
-var pers = new Person();
-Console.WriteLine($"{Environment.NewLine}Person as var is class: {pers.Pname} \tAge: {pers.age}");
+// var pers = new Person();
+var pers = new Person { Pname = "Petey" };
+    
+Console.WriteLine($"{Environment.NewLine}var pers.Pname is: {pers.Pname} \t pers.age: {pers.age}");
 RuntimeTypeHandle varPers = Type.GetTypeHandle(pers); 
-Console.WriteLine("varPers.Value:  {0}", varPers.Value);
+Console.WriteLine("varPers:  {0}", varPers);
+Console.WriteLine("RuntimeTypeHandle varPers.Value:  {0}", varPers.Value);
 Console.WriteLine("varPers.GetType():  {0}", varPers.GetType());
 Console.WriteLine($".{Environment.NewLine}");
 // Output:  Name: unknown, Age: 0
 
 Person persObj = new Person { Pname = "Petey" };
-Console.WriteLine ($"Person class obj instance with name= {persObj}");   // Petey
+Console.WriteLine ($"Person class obj instance with Pname= {persObj}");   // Petey
 Console.WriteLine ("persObj.GetType():  {0}", persObj.GetType());
 Console.WriteLine ("typeof(Person):  {0}", typeof(Person));
-
+Console.WriteLine($".{Environment.NewLine}");
+    
 RuntimeTypeHandle myRTHFromObject = Type.GetTypeHandle(persObj);
-Console.WriteLine("myRTHFromObject.Value:  {0}", myRTHFromObject.Value);
-Console.WriteLine("myRTHFromObject.GetType():  {0}", myRTHFromObject.GetType());
+Console.WriteLine("persObj's myRTHFromObject.Value:  {0}", myRTHFromObject.Value);
+Console.WriteLine("persObj's myRTHFromObject.GetType():  {0}", myRTHFromObject.GetType());
 
 RuntimeTypeHandle myRTHFromType = typeof(Person).TypeHandle;
 Console.Write("Get the type back from the handle:  ");
