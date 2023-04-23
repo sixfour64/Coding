@@ -150,6 +150,9 @@ Console.WriteLine($"The range of long is long.MinValue {lmin} to long.MaxValue {
 
 Console.WriteLine($"There is also byte and sbyte which use only 8bits 0-127");
 Console.WriteLine($"There is also native ints ninit and nuint{Environment.NewLine}.");
+Console.WriteLine($"There is also BigInteger as a struct, an arbitrarily large signed integer");
+BigInteger biNum = BigInteger.Pow(UInt64.MaxValue, 19);
+Console.WriteLine($"{biNum} {Environment.NewLine}.");
 
 Console.WriteLine (        1.0.GetType());  // Double  (double)
 Console.WriteLine (       1E06.GetType());  // Double  (double)
