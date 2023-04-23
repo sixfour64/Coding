@@ -230,8 +230,11 @@ When a class declares a base class, it inherits all the members of the base clas
 
 A class can directly implement one or more interfaces
 
+
+Interfaces:
 Interfaces define behaviors that a class or a struct MUST implement. An interface can contain methods, properties, events and indexers. They can also contain static methods with an implementation.
 >Interfaces have no scope.  Are Public by default.
+>An interface is similar to a class, but only specifies behavior and does not hold state (data). Consequently, an interface can define only functions and not fields.
 >see:  https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/interfaces
 >You can't create an instance of an Interface.
 see 54min mark of Fritz's ep08 @ https://youtu.be/Vj3GJTUaIaQ
