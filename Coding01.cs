@@ -314,6 +314,11 @@ Videos:
 https://www.youtube.com/playlist?list=PLdo4fOcmZ0oXv32dOd36UydQYLejKR61R
 end of lesson 3 
 
+
+
+=================
+dotnet:
+
 Coding01 has had:
   https://github.com/Humanizr/Humanizer 
 add it as a package:
@@ -367,6 +372,17 @@ valid dotnet commands:
 
 
 
+==========
+replit:
+
+manually add these in every .csproj files:
+<nullable>enable</nullable>
+<ImplicitUsings>enable</ImplicitUsings>
+<CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+<LangVersion>latest</LangVersion>
+
+repl IDE keyboard shortcuts:  https://docs.replit.com/programming-ide/working-shortcuts
 
 
 */
