@@ -385,4 +385,13 @@ manually add these in every .csproj files:
 repl IDE keyboard shortcuts:  https://docs.replit.com/programming-ide/working-shortcuts
 
 
+
+=========
+github:
+
+git clone https://github.com/YOUR-USERNAME/<repo>
+git remote -v     You will see the current configured remote repository for your fork.
+
+
+
 */
