@@ -244,14 +244,5 @@ Interfaces can derive from other interfaces.
 see 54min mark of Fritz's ep08 @ https://youtu.be/Vj3GJTUaIaQ
 
 
-repl:
-manually add these in every .csproj files:
-<nullable>enable</nullable>
-<ImplicitUsings>enable</ImplicitUsings>
-<CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
-<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-<LangVersion>latest</LangVersion>
-
-repl IDE keyboard shortcuts:  https://docs.replit.com/programming-ide/working-shortcuts
 
 */
