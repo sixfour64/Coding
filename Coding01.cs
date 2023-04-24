@@ -391,6 +391,8 @@ github:
 
 git clone https://github.com/YOUR-USERNAME/<repo>      e.g. git clone https://github.com/lee-anthony7/Coding
 git remote -v     You will see the current configured remote repository for your fork.
+git remote add upstream https://github.com/ORIGINAL_OWNER/Spoon-Knife.git
+git remote -v     again. You should see the URL for your fork as 'origin', and the URL for the upstream repository as 'upstream'.
 
 
 
