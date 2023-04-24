@@ -239,6 +239,9 @@ An interface is similar to a class, but only specifies behavior and does not hol
 They (typically) provide no implementation for its members because its members are implicitly abstract.
 Implementing an interface means providing a public implementation for all of its members.
 Interfaces can derive from other interfaces.
+As a guideline:
+  -Use classes and subclasses for types that naturally share an implementation.
+  -Use interfaces for types that have independent implementations.
 >see:  https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/interfaces
 >You can't create an instance of an Interface.
 see 54min mark of Fritz's ep08 @ https://youtu.be/Vj3GJTUaIaQ
