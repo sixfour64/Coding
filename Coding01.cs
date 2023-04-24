@@ -389,7 +389,7 @@ repl IDE keyboard shortcuts:  https://docs.replit.com/programming-ide/working-sh
 =========
 github:
 
-git clone https://github.com/YOUR-USERNAME/<repo>
+git clone https://github.com/YOUR-USERNAME/<repo>      e.g. git clone https://github.com/lee-anthony7/Coding
 git remote -v     You will see the current configured remote repository for your fork.
 
 
