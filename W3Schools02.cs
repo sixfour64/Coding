@@ -245,6 +245,7 @@ As a guideline:
 >see:  https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/interfaces
 >You can't create an instance of an Interface.
 see 54min mark of Fritz's ep08 @ https://youtu.be/Vj3GJTUaIaQ
+> >An interface is like a class that cannot hold data. It can deﬁne only behavior (and not state), which allows for multiple inheritance as well as a separation between speciﬁcation and implementation.
 
 
 
