@@ -1,14 +1,17 @@
 /* W3Schools02.cs
 
 to run in replit's shell:  
-rm -r "/home/runner/codeBasics0102/obj/"
-rm -r "/home/runner/codeBasics0102/bin/"
-dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --version && dotnet run --project "/home/runner/codeBasics0102/W3Schools02.csproj"
+rm -r "/home/runner/Coding/obj/" && rm -r "/home/runner/Coding/bin/"
 
 W3Schools02-specific alt launch string for the .replit:
-dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --version && dotnet run --project /home/runner/codeBasics0102/W3Schools02.csproj
+dotnet --info && dotnet --list-runtimes && dotnet --list-sdks && dotnet --version && dotnet sdk check && dotnet run --project /home/runner/Coding/W3Schools02.csproj
+
+dotnet run --project /home/runner/Coding/W3Schools02.csproj
+   if in GitHub CodeSpaces:
+     dotnet run --project W3Schools02.csproj
 
 */
+using System.Collections;
 
 namespace Coding;
   
@@ -27,11 +30,53 @@ class W3Schools02
   // public static void Main(string[] args)
   public static void Main(string[] arrayname)
     {
-          Console.WriteLine ("\n.\nHello World 2 - W3Schools02.cs"); 
 
+
+//  <-- Keep this information secure! -->
+string envstr;
+string envquery = "My system drive is %SystemDrive% and my system root is %SystemRoot%";
+envstr = Environment.ExpandEnvironmentVariables(envquery);
+Console.WriteLine("ExpandEnvironmentVariables: {0}", envstr);
+
+Console.WriteLine($"GetEnvironmentVariable: {Environment.NewLine}  My temporary directory is {0}.", Environment.GetEnvironmentVariable("TEMP"));
+
+Console.WriteLine("GetEnvironmentVariables: ");
+IDictionary environmentVariables = Environment.GetEnvironmentVariables();
+  foreach (DictionaryEntry de in environmentVariables)
+    {
+      Console.WriteLine("  {0} = {1}", de.Key, de.Value);
+    }
+
+Console.WriteLine($"{Environment.NewLine}.{Environment.NewLine}");
+Console.Write("CommandLine: {0}   ", Environment.CommandLine);
+string[] arguments = Environment.GetCommandLineArgs();
+Console.WriteLine("GetCommandLineArgs: {0}", String.Join(", ", arguments));  
+
+Console.WriteLine("CurrentDirectory: {0}", Environment.CurrentDirectory);   
+Console.WriteLine("MachineName: {0}", Environment.MachineName);
+Console.WriteLine("OSVersion: {0}", Environment.OSVersion.ToString());
+Console.WriteLine("StackTrace: '{0}'", Environment.StackTrace);
+
+Console.WriteLine($"{Environment.NewLine}.{Environment.NewLine}");
+Console.WriteLine("<<Keep the below information secure!>>");
+Console.WriteLine("SystemDirectory: {0}", Environment.SystemDirectory);
+Console.WriteLine("TickCount: {0}", Environment.TickCount);
+Console.WriteLine("UserDomainName: {0}", Environment.UserDomainName);
+Console.WriteLine("UserInteractive: {0}", Environment.UserInteractive);
+Console.WriteLine("UserName: {0}", Environment.UserName);
+Console.WriteLine("Version: {0}", Environment.Version.ToString());
+Console.WriteLine("WorkingSet: {0}", Environment.WorkingSet);
+Console.WriteLine("GetFolderPath: {0}",
+Environment.GetFolderPath(Environment.SpecialFolder.System));
+string[] drives = Environment.GetLogicalDrives();
+Console.WriteLine("GetLogicalDrives: {0}", String.Join(", ", drives));
+
+      
+Console.WriteLine ($"{Environment.NewLine}.{Environment.NewLine}Hello World 2 - W3Schools02.cs{Environment.NewLine}.");
+      
 DateTime dat1 = DateTime.Now;
 string dat2 = DateTime.Now.ToString ("dd-MM-yyyy  hh:mm:ss");
-    Console.WriteLine($".{Environment.NewLine}Current Time Zone: {TimeZoneInfo.Local.DisplayName}");
+    Console.WriteLine($"{Environment.NewLine}Current Time Zone: {TimeZoneInfo.Local.DisplayName}");
 Console.WriteLine($"DateTime.Now {{dat1}} is: {dat1}.  \nstring {{dat2}} = DateTime.Now.ToString (\"dd-MM-yyyy  hh:mm:ss\") is: {dat2}");
 
 DateTime dat3 = DateTime.Now;
@@ -122,6 +167,9 @@ Console.WriteLine($"{Environment.NewLine}.{Environment.NewLine}-end of W3Schools
 
 
 /* 
+
+dotnet add W3Schools02.csproj package Microsoft.EntityFrameworkCore
+
 you usually want your file to have the same name as its main class.
 
 you can include constructors other than Main, see NLog above, for example.  Constructors must have the same name as the class or struct
@@ -129,13 +177,22 @@ Constructors are an active block of code that is defined with an access modifier
 Constructors can call other constructors.  You can call the other constructors by use the : this() method suffix.  
 e.g.  public Student(byte age) : this()
 
+
+The this reference refers to the instance itself.
+
+
 names of class should use PascalCase, names of parameters, local variables, and private fields should be in camel case (e.g., myVariable), and all other identifiers should be in Pascal case (e.g., MyMethod).
 
-you can pass an array of args as inputs to the Main() method when you start the .cs app from the command line/shell
 
-string is an array of chars, it is NOT a value type
+you can pass an array of args as inputs to the Main() method when you start the .cs app from the command line/shell - see:  https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/program-structure/main-command-line
+
 
 You can define a custom value type via struct:  public struct Point { public int X; public int Y; }
+Structs are Values, not references.  Structs are not inheritable.
+Structs cannot be subclassed.
+Each instance from a struct does not require instantiation of an object on the heap.
+A struct instance cannot be null. The default value for a struct is an empty instance, with all fields empty (set to their default values).
+
 
 Delegates
 Just like you can pass in objects to a method via a ref instead of passing their values in by value type, you can also pass in a reference to a method as a ref to it i.e. its object ref:  this is what a delegate is
@@ -168,16 +225,34 @@ Namespaces can be heirarchically nested
     e.g.  namespace Outer.Middle.Inner
 
 file-scoped namespacing, applies to everything that follows in the file:
-  namespace MyNamespace; 
+   namespace MyNamespace; 
     class Class1 {}         // inside MyNamespace
     class Class2 {}         // inside MyNamespace
 
 A using directive can be nested within a namespace itself to limit the scope of the directive.
 
 
-put these in the .csproj files:
-    <nullable>enable</nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
+Class inheritance
+When a class declares a base class, it inherits all the members of the base class except the constructors. 
 
+A class can directly implement one or more interfaces
+
+Interfaces define behaviors that a class or a struct MUST implement. An interface can contain methods, properties, events and indexers. They can also contain static methods with an implementation.
+>Interfaces have no scope.  Are Public by default.
+>see:  https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/interfaces
+>You can't create an instance of an Interface.
+see 54min mark of Fritz's ep08 @ https://youtu.be/Vj3GJTUaIaQ
+>An interface is like a class that cannot hold data. It can deﬁne only behavior (and not state), which allows for multiple inheritance as well as a separation between speciﬁcation and implementation.
+
+
+repl:
+manually add these in every .csproj files:
+<nullable>enable</nullable>
+<ImplicitUsings>enable</ImplicitUsings>
+<CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+<LangVersion>latest</LangVersion>
+
+repl IDE keyboard shortcuts:  https://docs.replit.com/programming-ide/working-shortcuts
 
 */
